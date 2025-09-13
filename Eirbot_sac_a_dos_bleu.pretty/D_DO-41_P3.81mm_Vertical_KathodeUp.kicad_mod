@@ -1,0 +1,170 @@
+(footprint "D_DO-41_P3.81mm_Vertical_KathodeUp"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Diode, DO-41_SOD81 series, Axial, Vertical, pin pitch=3.81mm, length*diameter=5.2*2.7mm^2, https://www.diodes.com/assets/Package-Files/DO-41-Plastic.pdf")
+	(tags "Diode DO-41_SOD81 series Axial Vertical pin pitch 3.81mm  length 5.2mm diameter 2.7mm")
+	(property "Reference" "REF**"
+		(at 1.905 -2.750635 0)
+		(layer "F.SilkS")
+		(uuid "464e23d8-75d6-4960-a5c5-3487ec440d2c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "D_DO-41_P3.81mm_Vertical_KathodeUp"
+		(at 1.905 4.084135 0)
+		(layer "F.Fab")
+		(uuid "11346f4f-2a28-499d-ac90-bd908a2c6638")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f5e990e2-965a-4135-9310-a48990e1efef")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "eb91cf0a-dd40-4b34-96e6-8d8f91fc2a90")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start 2.059365 0)
+		(end 1.4 0)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f5be7b50-21db-41a2-9c27-cd441bc95b6e")
+	)
+	(fp_circle
+		(center 3.81 0)
+		(end 5.560635 0)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "de7708d7-d224-4eb9-92da-94d6de846f23")
+	)
+	(fp_rect
+		(start -1.27 -1.524)
+		(end 5.334 1.524)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "ffee2132-c7ac-468b-be0b-be7900a26ad8")
+	)
+	(fp_line
+		(start 0 0)
+		(end 3.81 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "ee853311-9485-4f97-906d-4dcf328f8794")
+	)
+	(fp_circle
+		(center 3.81 0)
+		(end 5.16 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "29a971f7-d4e9-4e09-aff9-a4dbdd3066d5")
+	)
+	(fp_text user "K"
+		(at 1.8 1.1 0)
+		(layer "F.SilkS")
+		(uuid "e2a7cf12-935b-4381-832d-cd396f87985d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_text user "${REFERENCE}"
+		(at 1.905 -2.750635 0)
+		(layer "F.Fab")
+		(uuid "5b76d6b6-de0f-45ee-8058-8c720e299b21")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_text user "K"
+		(at 1.8 1.1 0)
+		(layer "F.Fab")
+		(uuid "98cdc55c-7b35-42bd-aac4-11b553ec24ef")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole roundrect
+		(at 0 0)
+		(size 2.2 2.2)
+		(drill 1.1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.113636)
+		(uuid "4a36d64f-30ca-4468-9e6f-35888f0f1be9")
+	)
+	(pad "2" thru_hole circle
+		(at 3.81 0)
+		(size 2.2 2.2)
+		(drill 1.1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "c5519e89-6832-4118-aac8-769634499896")
+	)
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Diode_THT.3dshapes/D_DO-41_SOD81_P3.81mm_Vertical_KathodeUp.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

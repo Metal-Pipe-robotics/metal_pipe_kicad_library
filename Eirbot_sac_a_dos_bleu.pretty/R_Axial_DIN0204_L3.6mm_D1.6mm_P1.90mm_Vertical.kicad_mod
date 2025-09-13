@@ -1,0 +1,210 @@
+(footprint "R_Axial_DIN0204_L3.6mm_D1.6mm_P1.90mm_Vertical"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Resistor, Axial_DIN0204 series, Axial, Vertical, pin pitch=1.9mm")
+	(tags "Resistor Axial DIN0204")
+	(property "Reference" "REF**"
+		(at 0.95 -1.92 0)
+		(layer "F.SilkS")
+		(uuid "06bf0a0d-0d35-4bdb-873e-a5204b63d8db")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "R_Axial_DIN0204_L3.6mm_D1.6mm_P1.90mm_Vertical"
+		(at 0.95 1.92 0)
+		(layer "F.Fab")
+		(uuid "c445dd3b-25e3-4807-8b54-ef62da3a493f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3940716f-d692-427e-bfb0-c14ce995dcd5")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "849926ff-ff84-4f8d-be8d-61fb42e7cea6")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_arc
+		(start 0.417133 0.82)
+		(mid -0.92 0)
+		(end 0.417133 -0.82)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "2a203e37-b7bf-4c90-b169-a4f8d90519f8")
+	)
+	(fp_line
+		(start -0.9 0.7)
+		(end -0.9 -0.7)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "e7c7b610-fafe-4561-af2a-b72f54eb2ad9")
+	)
+	(fp_line
+		(start -0.7 -0.9)
+		(end 2.5 -0.9)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "9bcf277e-7742-42ad-a1c7-852ae92f3975")
+	)
+	(fp_line
+		(start 2.5 0.9)
+		(end -0.7 0.9)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "49e74a30-f430-494e-a8db-df2ccbf434e2")
+	)
+	(fp_line
+		(start 2.7 -0.7)
+		(end 2.7 0.7)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "52b7e7ea-556b-4032-8be9-8a494bb53daf")
+	)
+	(fp_arc
+		(start -0.9 -0.7)
+		(mid -0.841421 -0.841421)
+		(end -0.7 -0.9)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "5486d9d8-9106-4802-b8c1-9d73e7539304")
+	)
+	(fp_arc
+		(start -0.7 0.9)
+		(mid -0.841421 0.841421)
+		(end -0.9 0.7)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "3e3f9b5e-ea87-4d21-b64f-21f0f65f533e")
+	)
+	(fp_arc
+		(start 2.5 -0.9)
+		(mid 2.641421 -0.841421)
+		(end 2.7 -0.7)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "7ed290d4-6399-4ec9-97f1-5787426f4581")
+	)
+	(fp_arc
+		(start 2.7 0.7)
+		(mid 2.641421 0.841421)
+		(end 2.5 0.9)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "abcf2bbf-8d4e-4ca1-aec2-dc7d37625ed1")
+	)
+	(fp_line
+		(start 0 0)
+		(end 1.9 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "dcd9fc6c-205f-4636-af49-778e129041cf")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 0.8 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "b7f20e3c-9753-4781-8121-e2a6e1af97d7")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0.95 -1.92 0)
+		(layer "F.Fab")
+		(uuid "26cff49b-52b7-420b-8006-69334ff416d3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at 0 0)
+		(size 1.4 1.4)
+		(drill 0.7)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "6f05616b-b7ea-4752-8d22-79bbb5230021")
+	)
+	(pad "2" thru_hole circle
+		(at 1.9 0)
+		(size 1.4 1.4)
+		(drill 0.7)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "8fa1864b-d83e-4eed-95da-ddf4218472f4")
+	)
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Resistor_THT.3dshapes/R_Axial_DIN0204_L3.6mm_D1.6mm_P1.90mm_Vertical.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
