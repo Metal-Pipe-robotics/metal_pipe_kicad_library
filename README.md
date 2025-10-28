@@ -11,9 +11,9 @@ Cette bibliothèque contient des composants ainsi que des empreintes associées 
 
 Trois bibliothèque de composants sont fournis :
 
-	- Une bibliothèque de composants traversants (Metal_Pipe_BASICS)
-	- Une bibliothèque de composants montés en surface (Metal_Pipe_CMS)
-	- Une bibliothèque incluant des composants souvant aléatoires, pour personnaliser ses cartes (Metal_Pipe_MISC)
+ - Une bibliothèque de composants traversants (Metal_Pipe_BASICS)
+ - Une bibliothèque de composants montés en surface (Metal_Pipe_CMS)
+ - Une bibliothèque incluant des composants souvant aléatoires, pour personnaliser ses cartes (Metal_Pipe_MISC)
 
 Une seule bibliothèque contient toutes les empreintes associées aux composants : sac_a_dos_bleu_footprints
 
@@ -29,6 +29,6 @@ Cliquer sur le logo dossier en bas à gauche de la fenêtre pour ajouter une bib
 
 Voila voila, c'est aussi simple que ça (vous pouvez aussi ajouter une bibliothèque pour un projet spécifique, elle ne se retrouvera pas dans les autres projets)
 
-###Bibliothèque d'empreintes
+### Bibliothèque d'empreintes
 
 Pareil qu'avant mais il faut ouvrir Préférence > Configurer les librairies d'empreintes
