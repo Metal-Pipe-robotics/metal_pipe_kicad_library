@@ -1,0 +1,220 @@
+(footprint "D_DO-201_P5.08mm_Vertical_KathodeUp"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Diode, DO-201 series, Axial, Vertical, pin pitch=5.08mm, length*diameter=9.53*5.21mm^2, http://www.diodes.com/_files/packages/DO-201.pdf")
+	(tags "Diode DO-201 series Axial Vertical pin pitch 5.08mm  length 9.53mm diameter 5.21mm")
+	(property "Reference" "REF**"
+		(at 2.54 -3.725 0)
+		(layer "F.SilkS")
+		(uuid "a2816857-4684-444b-a6f0-79fa98e1b4f3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "D_DO-201_P5.08mm_Vertical_KathodeUp"
+		(at 2.54 3.725 0)
+		(layer "F.Fab")
+		(uuid "afab932e-47ce-4b45-ae10-3ee7265a76f2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c2798164-d7bf-4764-9096-dbc1752f34db")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b9cdd2f6-1400-4221-9c0b-b7b5156c85ea")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start 1.7275 -0.4)
+		(end 1.7275 0.4)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "8e6d2b56-6f9c-4e2b-9074-244ef0afd0f0")
+	)
+	(fp_line
+		(start 1.7275 0)
+		(end 1.6275 0)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "cc5a1099-6532-4990-8e0f-850cd2e520ee")
+	)
+	(fp_line
+		(start 1.7275 0)
+		(end 2.2275 -0.4)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "386dbd9f-c511-4830-aaf7-a02eb3ba37cb")
+	)
+	(fp_line
+		(start 2.2275 -0.4)
+		(end 2.2275 0.4)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "1b827ce8-470c-4fe9-be97-5a054c8baa41")
+	)
+	(fp_line
+		(start 2.2275 0)
+		(end 2.3275 0)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "609bab04-7b7b-46cf-9f00-c12dd7a1a15c")
+	)
+	(fp_line
+		(start 2.2275 0.4)
+		(end 1.7275 0)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "f2596750-b451-4672-8dae-2a00ec5958a1")
+	)
+	(fp_circle
+		(center 5.08 0)
+		(end 7.805 0)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "8f568c6d-e2a7-4abb-9052-266afc58a8c3")
+	)
+	(fp_rect
+		(start -1.55 -2.86)
+		(end 7.94 2.86)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "ae224169-86dd-4486-959d-81de1cfd940e")
+	)
+	(fp_line
+		(start 0 0)
+		(end 5.08 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "d19e7f03-6f58-423c-a9d2-f162ad8d5fe6")
+	)
+	(fp_circle
+		(center 5.08 0)
+		(end 7.685 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "c22db933-0e72-4e86-bf7c-d2967c61be74")
+	)
+	(fp_text user "K"
+		(at 0 2.3 0)
+		(layer "F.SilkS")
+		(uuid "8f0b9643-263c-4d87-bcad-91dd090c200a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_text user "K"
+		(at 0 2.3 0)
+		(layer "F.Fab")
+		(uuid "5dcee71e-3d13-44c1-b0e4-db868b07d084")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_text user "${REFERENCE}"
+		(at 2.54 -3.725 0)
+		(layer "F.Fab")
+		(uuid "b675d2cf-e05b-4131-bd3e-e763260c4dce")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole roundrect
+		(at 0 0)
+		(size 2.6 2.6)
+		(drill 1.3)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.096154)
+		(uuid "d5d486c9-3f7c-42ac-a272-17ee177c816b")
+	)
+	(pad "2" thru_hole circle
+		(at 5.08 0)
+		(size 2.6 2.6)
+		(drill 1.3)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "832065dc-545c-4fc1-8d37-c7ba0851d90c")
+	)
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Diode_THT.3dshapes/D_DO-201_P5.08mm_Vertical_KathodeUp.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
